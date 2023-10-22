@@ -12,7 +12,6 @@ import tensorflow as tf
 from prettytable import PrettyTable
 import time
 
-tf.get_logger().setLevel(logging.ERROR)
 
 ### Collect Data
 mnist_images = np.concatenate((mnist.train_images(), mnist.test_images()))
